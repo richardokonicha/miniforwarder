@@ -4,7 +4,7 @@
   "description": "A simple discord bot to forward messages from one channel to another",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node init && node bot.js",
     "extra": "node extra.js"
   },
   "keywords": [],
