@@ -4,14 +4,14 @@
   "description": "A simple discord bot to forward messages from one channel to another",
   "main": "bot.js",
   "scripts": {
-    "start": "node api.js && node bot.js",
+    "start": "node init && node bot.js",
     "extra": "node extra.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.17.3",
+    "discord.js": "^14.27.0",
     "dotenv": "^16.4.7",
     "request": "^2.88.2"
   }
